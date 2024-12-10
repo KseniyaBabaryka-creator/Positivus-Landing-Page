@@ -4,14 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Positivus</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 	<link
   	rel="stylesheet"
   	href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 	/>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header class="header">
-		<div class="container">
+		<div class="container header__container">
 			<div class="header__logo">
 				<a href="index.html" class="header__logo-link">
 					<img src="img/logo.png" alt="logo" class="header__logo-img">
@@ -86,7 +90,8 @@
 				<ul class="services__list">
 					<li class="services__list-item grey">
 						<div class="services__list-info">
-							<h3 class="services__list-title sm-title">Search engine optimization</h3>
+							<h3 class="services__list-title sm-title">Search engine</h3>
+							<h3 class="services__list-title sm-title">optimization</h3>
 							<a href="#" class="services__list-link">Learn more</a>
 						</div>
 						<img src="img/card1.png" alt="abstraction" class="services__list-img">
@@ -94,7 +99,8 @@
 					<li class="services__list-item green">
 						<div class="services__list-info">
 							<h3 class="services__list-title sm-title">Pay-per-click
-								advertising
+							</h3>
+							<h3 class="services__list-title sm-title">advertising
 							</h3>
 							<a href="#" class="services__list-link">Learn more</a>
 						</div>
@@ -102,28 +108,32 @@
 					</li>
 					<li class="services__list-item black">
 						<div class="services__list-info">
-							<h3 class="services__list-title sm-title">Social Media Marketing</h3>
+							<h3 class="services__list-title sm-title">Social Media</h3>
+							<h3 class="services__list-title sm-title">Marketing</h3>
 							<a href="#" class="services__list-link">Learn more</a>
 						</div>
 						<img src="img/card3.png" alt="abstraction" class="services__list-img">
 					</li>
 					<li class="services__list-item grey">
 						<div class="services__list-info">
-							<h3 class="services__list-title sm-title">Email Marketing</h3>
+							<h3 class="services__list-title sm-title">Email</h3>
+							<h3 class="services__list-title sm-title">Marketing</h3>
 							<a href="#" class="services__list-link">Learn more</a>
 						</div>
 						<img src="img/card4.png" alt="abstraction" class="services__list-img">
 					</li>
 					<li class="services__list-item green">
 						<div class="services__list-info">
-							<h3 class="services__list-title sm-title">Content Creation</h3>
+							<h3 class="services__list-title sm-title">Content</h3>
+							<h3 class="services__list-title sm-title">Creation</h3>
 							<a href="#" class="services__list-link">Learn more</a>
 						</div>
 						<img src="img/card5.png" alt="abstraction" class="services__list-img">
 					</li>
-					<li class="services__list-item">
+					<li class="services__list-item black">
 						<div class="services__list-info">
-							<h3 class="services__list-title sm-title">Ananlytics and Tracking</h3>
+							<h3 class="services__list-title sm-title">Ananlytics and</h3>
+							<h3 class="services__list-title sm-title">Tracking</h3>
 							<a href="#" class="services__list-link">Learn more</a>
 						</div>
 						<img src="img/card6.png" alt="abstraction" class="services__list-img">
@@ -133,13 +143,15 @@
 		</section>
 	
 		<section class="section-prop">
-			<div class="container prop">
-				<div class="prop__info">
-					<h3 class="prop__title sm-title">Let’s make things happen</h3>
-					<p class="prop__text text">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-					<button class="btn prop__btn">Get your free proposal</button>
+			<div class="container">
+				<div class="prop">
+					<div class="prop__info">
+						<h3 class="prop__title">Let’s make things happen</h3>
+						<p class="prop__text text">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+						<button class="btn prop__btn">Get your free proposal</button>
+					</div>
+					<img src="img/prop.png" alt="abstraction" class="prop__img">
 				</div>
-				<img src="img/prop.png" alt="abstraction" class="prop__img">
 			</div>
 		</section>
 	
@@ -177,66 +189,60 @@
 				</div>
 	
 				<ul class="work__list">
-					<li class="work__list-item">
-						<div class="accordion">
+					<li class="work__list-item accordion">
+						<div class="accordion-text">
 							<span class="number">01</span>
 							Consultation
-							<span class="icon">x</span>
 						</div>
 						<div class="panel">
 							<hr>
 							<p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 						</div>
 					</li>
-					<li class="work__list-item">
-						<div class="accordion">
+					<li class="work__list-item accordion">
+						<div class="accordion-text">
 							<span class="number">02</span>
 							Research and Strategy Development
-							<span class="icon">x</span>
 						</div>
 						<div class="panel">
 							<hr>
 							<p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 						</div>
 					</li>
-					<li class="work__list-item">
-						<div class="accordion">
+					<li class="work__list-item accordion">
+						<div class="accordion-text">
 							<span class="number">03</span>
 							Implementation
-							<span class="icon">x</span>
 						</div>
 						<div class="panel">
 							<hr>
 							<p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 						</div>
 					</li>
-					<li class="work__list-item">
-						<div class="accordion">
+					<li class="work__list-item accordion">
+						<div class="accordion-text">
 							<span class="number">04</span>
 							Monitoring and Optimization
-							<span class="icon">x</span>
 						</div>
 						<div class="panel">
 							<hr>
 							<p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 						</div>
 					</li>
-					<li class="work__list-item">
-						<div class="accordion">
+					<li class="work__list-item accordion">
+						<div class="accordion-text">
 							<span class="number">05</span>
 							Reporting and Communication
-							<span class="icon">x</span>
 						</div>
 						<div class="panel">
 							<hr>
 							<p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 						</div>
 					</li>
-					<li class="work__list-item">
-						<div class="accordion">
+					<li class="work__list-item accordion">
+						<div class="accordion-text">
 							<span class="number">06</span>
 							Continual Improvement
-							<span class="icon">x</span>
 						</div>
 						<div class="panel">
 							<hr>
@@ -248,82 +254,100 @@
 		</section>
 	
 		<section class="section-team">
-			<div class="container">
+			<div class="container team__cont">
 				<div class="team__info section__info">
 					<h2 class="title team__title">Team</h2>
-					<p class="text work__text">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+					<p class="text team__text">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
 				</div>
 	
 				<ul class="team__list">
 					<li class="team__list-item">
-						<div class="team__list-info">
-							<img src="img/photo1.png" alt="photo" class="team__list-img">
-							<div class="team__list-desc">
-								<p class="team__list-name">John Smith</p>
-								<p class="team__list-job">CEO and Founder</p>
+						<div class="align">
+							<div class="team__list-info">
+								<img src="img/photo1.png" alt="photo" class="team__list-img">
+								<div class="team__list-desc">
+									<p class="team__list-name">John Smith</p>
+									<p class="team__list-job">CEO and Founder</p>
+								</div>
+								<a href="#" class="linkedin"></a>
 							</div>
-							<a href="#" class="linkedin"></a>
 						</div>
+						
 						<hr class="team__list-line">
 						<p class="team__list-text text">10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy</p>
 					</li>
 					<li class="team__list-item">
-						<div class="team__list-info">
-							<img src="img/photo2.png" alt="photo" class="team__list-img">
-							<div class="team__list-desc">
-								<p class="team__list-name">Jane Doe</p>
-								<p class="team__list-job">Director of Operations</p>
+						<div class="align">
+							<div class="team__list-info">
+								<img src="img/photo2.png" alt="photo" class="team__list-img">
+								<div class="team__list-desc">
+									<p class="team__list-name">Jane Doe</p>
+									<p class="team__list-job">Director of Operations</p>
+								</div>
+								<a href="#" class="linkedin"></a>
 							</div>
-							<a href="#" class="linkedin"></a>
 						</div>
+						
 						<hr class="team__list-line">
 						<p class="team__list-text text">7+ years of experience in project management and team leadership. Strong organizational and communication skills</p>
 					</li>
 					<li class="team__list-item">
-						<div class="team__list-info">
-							<img src="img/photo3.png" alt="photo" class="team__list-img">
-							<div class="team__list-desc">
-								<p class="team__list-name">Michael Brown</p>
-								<p class="team__list-job">Senior SEO Specialist</p>
+						<div class="align">
+							<div class="team__list-info">
+								<img src="img/photo3.png" alt="photo" class="team__list-img">
+								<div class="team__list-desc">
+									<p class="team__list-name">Michael Brown</p>
+									<p class="team__list-job">Senior SEO Specialist</p>
+								</div>
+								<a href="#" class="linkedin"></a>
 							</div>
-							<a href="#" class="linkedin"></a>
 						</div>
+					
 						<hr class="team__list-line">
 						<p class="team__list-text text">5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization</p>
 					</li>
 					<li class="team__list-item">
-						<div class="team__list-info">
-							<img src="img/photo4.png" alt="photo" class="team__list-img">
-							<div class="team__list-desc">
-								<p class="team__list-name">Emily Johnson</p>
-								<p class="team__list-job">PPC Manager</p>
+						<div class="align">
+							<div class="team__list-info">
+								<img src="img/photo4.png" alt="photo" class="team__list-img">
+								<div class="team__list-desc">
+									<p class="team__list-name">Emily Johnson</p>
+									<p class="team__list-job">PPC Manager</p>
+								</div>
+								<a href="#" class="linkedin"></a>
 							</div>
-							<a href="#" class="linkedin"></a>
 						</div>
+						
 						<hr class="team__list-line">
 						<p class="team__list-text text">3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis</p>
 					</li>
 					<li class="team__list-item">
-						<div class="team__list-info">
-							<img src="img/photo5.png" alt="photo" class="team__list-img">
-							<div class="team__list-desc">
-								<p class="team__list-name">Brian Williams</p>
-								<p class="team__list-job">Social Media Specialist</p>
+						<div class="align">
+							<div class="team__list-info">
+								<img src="img/photo5.png" alt="photo" class="team__list-img">
+								<div class="team__list-desc">
+									<p class="team__list-name">Brian Williams</p>
+									<p class="team__list-job">Social Media Specialist</p>
+								</div>
+								<a href="#" class="linkedin"></a>
 							</div>
-							<a href="#" class="linkedin"></a>
 						</div>
+						
 						<hr class="team__list-line">
 						<p class="team__list-text text">4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement</p>
 					</li>
 					<li class="team__list-item">
-						<div class="team__list-info">
-							<img src="img/photo6.png" alt="photo" class="team__list-img">
-							<div class="team__list-desc">
-								<p class="team__list-name">Sarah Kim</p>
-								<p class="team__list-job">Content Creator</p>
+						<div class="align">
+							<div class="team__list-info">
+								<img src="img/photo6.png" alt="photo" class="team__list-img">
+								<div class="team__list-desc">
+									<p class="team__list-name">Sarah Kim</p>
+									<p class="team__list-job">Content Creator</p>
+								</div>
+								<a href="#" class="linkedin"></a>
 							</div>
-							<a href="#" class="linkedin"></a>
 						</div>
+						
 						<hr class="team__list-line">
 						<p class="team__list-text text">2+ years of experience in writing and editing
 						Skilled in creating compelling, SEO-optimized content for various industries</p>
@@ -337,7 +361,7 @@
 			<div class="container">
 				<div class="test__info section__info">
 					<h2 class="title test__title">Testimonials</h2>
-					<p class="text work__text">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
+					<p class="text test__text">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
 				</div>
 	
 				<div class="swiper">
@@ -345,35 +369,35 @@
 					<div class="swiper-wrapper">
 					  <!-- Slides -->
 					  <div class="swiper-slide">
-						<div class="slide-text text">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</div>
+						<div class="slide-text text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</div>
 						<div class="slide-info">
 							<p class="slide-name">John Smith</p>
 							<p class="slide-desc">Marketing Director at XYZ Corp</p>
 						</div>
 					  </div>
 					  <div class="swiper-slide">
-						<div class="slide-text text">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</div>
+						<div class="slide-text text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</div>
 						<div class="slide-info">
 							<p class="slide-name">John Smith</p>
 							<p class="slide-desc">Marketing Director at XYZ Corp</p>
 						</div>
 					  </div>
 					  <div class="swiper-slide">
-						<div class="slide-text text">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</div>
+						<div class="slide-text text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</div>
 						<div class="slide-info">
 							<p class="slide-name">John Smith</p>
 							<p class="slide-desc">Marketing Director at XYZ Corp</p>
 						</div>
 					  </div>
 					  <div class="swiper-slide">
-						<div class="slide-text text">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</div>
+						<div class="slide-text text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</div>
 						<div class="slide-info">
 							<p class="slide-name">John Smith</p>
 							<p class="slide-desc">Marketing Director at XYZ Corp</p>
 						</div>
 					  </div>
 					  <div class="swiper-slide">
-						<div class="slide-text text">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</div>
+						<div class="slide-text text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</div>
 						<div class="slide-info">
 							<p class="slide-name">John Smith</p>
 							<p class="slide-desc">Marketing Director at XYZ Corp</p>
@@ -388,7 +412,7 @@
 					<div class="swiper-button-prev"></div>
 					<div class="swiper-button-next"></div>
 				 
-				 </div>
+				</div>
 			</div>
 		</section>
 	
@@ -401,7 +425,13 @@
 		
 				<div class="contact__container">
 					<form  class="form">
-						<label for="name" class="form__label">Name*</label>
+						<div class="form__radio-btns">
+							<input type="radio" class="radio" id="hi" name="greeting" checked>
+							<label for="hi" class="radio-label">Say Hi</label>
+							<input type="radio" class="radio" id="quote" name="greeting">
+							<label for="quote" class="radio-label">Get a Quote</label>
+						</div>
+						<label for="name" class="form__label">Name</label>
 						<input type="text" required class="form__input" placeholder="Name" id="name" name="name">
 						<label for="mail" class="form__label">Email*</label>
 						<input type="email" required class="form__input" placeholder="Email" id="mail" name="mail">
@@ -415,69 +445,72 @@
 	</main>
 
 	<footer class="footer">
-		<div class="container footer__container">
-			<div class="footer__head">
-				<div class="header__logo">
-					<a href="index.html" class="header__logo-link">
-						<img src="img/logo-w.png" alt="logo" class="header__logo-img">
-						Positivus
-					</a>
-				</div>
-				<nav class="footer__nav header__nav">
-					<ul class="nav__list">
-						<li class="nav__list-item">
-							<a href="#" class="nav__list-link">About us</a>
+		<div class="container">
+			<div class="footer__container">
+				<div class="footer__head">
+					<div class="header__logo">
+						<a href="index.html" class="header__logo-link footer__logo-link">
+							<img src="img/logo-w.png" alt="logo" class="header__logo-img">
+							Positivus
+						</a>
+					</div>
+					<nav class="footer__nav header__nav">
+						<ul class="nav__list">
+							<li class="nav__list-item">
+								<a href="#" class="nav__list-link">About us</a>
+							</li>
+							<li class="nav__list-item">
+								<a href="#" class="nav__list-link">Services</a>
+							</li>
+							<li class="nav__list-item">
+								<a href="#" class="nav__list-link">Use Cases</a>
+							</li>
+							<li class="nav__list-item">
+								<a href="#" class="nav__list-link">Pricing</a>
+							</li>
+							<li class="nav__list-item">
+								<a href="#" class="nav__list-link">Blog</a>
+							</li>
+						</ul>
+					</nav>
+	
+					<ul class="socail__list">
+						<li class="socail__item">
+							<a href="#" class="social__link linked"></a>
 						</li>
-						<li class="nav__list-item">
-							<a href="#" class="nav__list-link">Services</a>
+						<li class="socail__item">
+							<a href="#" class="social__link face"></a>
 						</li>
-						<li class="nav__list-item">
-							<a href="#" class="nav__list-link">Use Cases</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="#" class="nav__list-link">Pricing</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="#" class="nav__list-link">Blog</a>
+						<li class="socail__item">
+							<a href="#" class="social__link twit"></a>
 						</li>
 					</ul>
-				</nav>
-
-				<ul class="socail__list">
-					<li class="socail__item">
-						<a href="#" class="social__link linked"></a>
-					</li>
-					<li class="socail__item">
-						<a href="#" class="social__link face"></a>
-					</li>
-					<li class="socail__item">
-						<a href="#" class="social__link twit"></a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="footer__main">
-				<div class="footer__contacts">
-					<h5 class="footer__title">
-						Contact us:
-					</h5>
-					<p class="footer__text text">Email: info@positivus.com</p>
-					<p class="footer__text text">Phone: 555-567-8901</p>
-					<p class="footer__text text">Address: 1234 Main St
-						Moonstone City, Stardust State 12345</p>
 				</div>
-				<form  class="footer__form">
-					<input type="email" class="footer__input" placeholder="Email" required>
-					<button class="footer__btn" type="submit">Subscribe to news</button>
-				</form>
+	
+				<div class="footer__main">
+					<div class="footer__contacts">
+						<h5 class="footer__title">
+							Contact us:
+						</h5>
+						<p class="footer__text text">Email: info@positivus.com</p>
+						<p class="footer__text text">Phone: 555-567-8901</p>
+						<p class="footer__text text">Address: 1234 Main St <br>
+							Moonstone City, Stardust State 12345</p>
+					</div>
+					<form  class="footer__form">
+						<input type="email" class="footer__input" placeholder="Email" required>
+						<button class="footer__btn" type="submit">Subscribe to news</button>
+					</form>
+				</div>
+	
+				<hr class="footer__line">
+	
+				<div class="footer__rights">
+					<p class="footer__copyright text">© 2023 Positivus. All Rights Reserved.</p>
+					<a href="#" class="footer__privacy">Privacy Policy</a>
+				</div>
 			</div>
-
-			<hr class="footer__line">
-
-			<div class="footer__rights">
-				<p class="footer__copyright text">© 2023 Positivus. All Rights Reserved.</p>
-				<a href="#" class="footer__privacy">Privacy Policy</a>
-			</div>
+			
 		</div>
 	</footer>
 
